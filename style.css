@@ -1,0 +1,15 @@
+body {
+  margin: 16px;
+  font-family: "Proxima Nova", system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial;
+  color: #eee;
+  background: #111;
+}
+
+.controls { display: inline-flex; gap: 8px; margin-bottom: 12px; }
+.controls input[type="text"] { padding: 8px 10px; border: 1px solid #2a2a2a; background:#1a1a1a; color:#eee; border-radius:8px; }
+.controls button { padding: 8px 12px; border:1px solid #2a2a2a; background:#1f1f1f; color:#eee; border-radius:8px; cursor:pointer; }
+
+.poem { display: grid; gap: 8px; }
+.poem-row { display: inline-flex; gap: 8px; align-items: center; }
+.poem-text { font-size: 18px; line-height: 1.4; }
+.poem-slider { width: 160px; }
